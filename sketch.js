@@ -6,7 +6,7 @@
 // Purple Rain
 // (138, 43, 226)
 // (230, 230, 250) // background
-
+//this is just a test comment 
 var drops = [];
 
 function setup() {
