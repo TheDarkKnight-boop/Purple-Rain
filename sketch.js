@@ -22,7 +22,7 @@ function draw() {
     drops[i].fall();
     drops[i].show();
   }
-  function draw() {
+  function {
     if(paused) {
 
     } else {
