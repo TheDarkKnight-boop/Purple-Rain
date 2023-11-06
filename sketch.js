@@ -8,7 +8,7 @@
 // (230, 230, 250) // background
 //this is just a test comment 
 var drops = [];
-
+var paused = false; 
 function setup() {
   createCanvas(640, 360);
   for (var i = 0; i < 500; i++) {
@@ -22,4 +22,17 @@ function draw() {
     drops[i].fall();
     drops[i].show();
   }
+  function draw() {
+    if(paused) {
+
+    } else {
+
+    }
+  }
+}
+function keyPressed(){
+if(key === 'p') {
+  var paused = true; 
+}
+
 }
