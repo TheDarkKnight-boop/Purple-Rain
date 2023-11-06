@@ -17,22 +17,20 @@ function setup() {
 }
 
 function draw() {
-  background(230, 230, 250);
-  for (var i = 0; i < drops.length; i++) {
-    drops[i].fall();
-    drops[i].show();
-  }
-  function {
-    if(paused) {
-
-    } else {
-
+    
+  if(paused) {
+// do paused stuff
+  } else {
+    background(230, 230, 250);
+    for (var i = 0; i < drops.length; i++) {
+      drops[i].fall();
+      drops[i].show();
     }
   }
 }
 function keyPressed(){
 if(key === 'p') {
-  var paused = true; 
+   paused = true; 
 }
 
 }
