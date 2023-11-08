@@ -21,7 +21,7 @@ function draw() {
   if(paused) {
 // do paused stuff
     textSize(80) 
-    text('PAUSED' , 50, 50); 
+    text('PAUSED', 50, 50); 
   } else {
     background(230, 230, 250);
     for (var i = 0; i < drops.length; i++) {
