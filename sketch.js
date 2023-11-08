@@ -20,7 +20,8 @@ function draw() {
     
   if(paused) {
 // do paused stuff
-    textSize(80) 
+    console.log('PAUSED'); 
+    textSize(80);  
     text('PAUSED', 50, 50); 
   } else {
     background(230, 230, 250);
