@@ -22,7 +22,7 @@ function draw() {
 // do paused stuff
     console.log('PAUSED'); 
     textSize(80);  
-    text('PAUSED', 50, 50); 
+    text('PAUSED', 100, 100); 
   } else {
     background(230, 230, 250);
     for (var i = 0; i < drops.length; i++) {
