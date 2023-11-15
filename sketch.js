@@ -17,9 +17,8 @@ function setup() {
 }
 
 function draw() {
-    
-  if(paused) {
-// do paused stuff
+  if (paused) {
+    // do paused stuff
     console.log('PAUSED'); 
     textSize(80);  
     text('PAUSED', 100, 100); 
@@ -31,9 +30,13 @@ function draw() {
     }
   }
 }
-function keyPressed(){
-if(key === 'p') {
-   paused = true; 
-}
 
+function keyPressed() {
+  if (key === 'p') {
+    if (paused) {
+      paused = false;
+    } else {
+      paused = true; 
+    }
+  }
 }
