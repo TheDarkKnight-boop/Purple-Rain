@@ -11,7 +11,6 @@ var drops = [];
 var paused = false; 
 function setup() {
   createCanvas(640, 360);
-  background(0, 0, 225); 
   for (var i = 0; i < 500; i++) {
     drops[i] = new Drop();
   }
@@ -24,7 +23,7 @@ function draw() {
     textSize(80);  
     text('PAUSED', 100, 100); 
   } else {
-    background(230, 230, 250);
+    background(0, 230, 250);
     for (var i = 0; i < drops.length; i++) {
       drops[i].fall();
       drops[i].show();
