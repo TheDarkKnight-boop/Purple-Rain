@@ -40,3 +40,8 @@ function keyPressed() {
     }
   }
 }
+
+
+function mousePressed(mousePressed) {
+  console.log(mousePressed);
+}
