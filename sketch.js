@@ -41,7 +41,6 @@ function keyPressed() {
   }
 }
 
-
-function mousePressed(mousePressed) {
-  console.log(mousePressed);
-}
+function mouseClicked() {
+  background(255); 
+}   
