@@ -8,7 +8,8 @@
 // (230, 230, 250) // background
 //this is just a test comment 
 var drops = [];
-var paused = false; 
+var paused = false;
+var backgroundColor = [0, 0, 130] 
 function setup() {
   createCanvas(640, 360);
   for (var i = 0; i < 500; i++) {
