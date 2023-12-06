@@ -24,7 +24,7 @@ function draw() {
     textSize(80);  
     text('PAUSED', 100, 100); 
   } else {
-    background(0, 0, 130);
+    var = backgroundColor; 
     for (var i = 0; i < drops.length; i++) {
       drops[i].fall();
       drops[i].show();
