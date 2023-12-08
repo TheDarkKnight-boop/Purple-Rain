@@ -43,5 +43,5 @@ function keyPressed() {
 }
 
 function mouseClicked() {
-  backgroundColor=[0, 0, 130]; 
+  backgroundColor=[255]; 
 }   
